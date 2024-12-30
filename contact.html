@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - The School's Oven</title>
+  <style>
+    /* General Styles */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      color: #fff;
+      background-color: #1a1a1a;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #000;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .navbar .logo img {
+      height: 50px;
+    }
+
+    .navbar nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    .navbar nav ul li {
+      margin: 0 15px;
+    }
+
+    .navbar nav ul li a {
+      text-decoration: none;
+      color: #ffcc00;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    /* Contact Section */
+    .contact-section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .contact-section h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #ffcc00;
+    }
+
+    .contact-section p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      color: #ddd;
+    }
+
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .contact-info div {
+      font-size: 1.1rem;
+      color: #fff;
+    }
+
+    .contact-info div span {
+      font-weight: bold;
+      color: #ffcc00;
+    }
+
+    /* Contact Form */
+    .contact-form {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form button {
+      width: 80%;
+      max-width: 400px;
+      margin: 10px 0;
+      padding: 10px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      background-color: #333;
+      color: #fff;
+    }
+
+    .contact-form button {
+      background-color: #ffcc00;
+      color: #000;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #e6b800;
+    }
+
+    /* Footer */
+    footer {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 50px;
+    }
+
+    footer p {
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <img src="logo.png" alt="The School's Oven Logo"> <!-- Replace with your logo -->
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <h1>Contact Us</h1>
+    <p>We’d love to hear from you! Feel free to reach out with any questions or feedback.</p>
+
+    <div class="contact-info">
+      <div><span>Phone:</span> 647-867-2463</div>
+      <div><span>Email:</span> theschoolsovenbakery@gmail.com</div>
+      <div><span>Address:</span> 487 Bloor Street W, Toronto</div>
+    </div>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 The School's Oven | Bloor Street, Toronto | 647-867-2463</p>
+  </footer>
+</body>
+</html>
